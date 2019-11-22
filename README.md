@@ -18,7 +18,7 @@ mkvmerge -o "s$flnm.mp4" $flnm.mp4  --language 0:en --track-name 0:English "$fln
 done;
 ```
 
-## Merging videos into a LP progression
+## Merging videos into an LP progression
 
 ```bash
 ls sc*.mp4 | sort -k2,3g -t '_' > /tmp/concat_order.txt
